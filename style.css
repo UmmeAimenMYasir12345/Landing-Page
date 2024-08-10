@@ -1016,15 +1016,15 @@ input:valid{
 
 }
 
-@media only screen and (max-width:1013px){
+/* @media only screen and (max-width:1013px){
     .about .debitis{
         margin-top: 11%;
     }
-}
+} */
 
 @media only screen and (max-width:940px){
     .about .debitis{
-        margin-top: 17%;
+        margin-top: 25%;
     }
 }
 
