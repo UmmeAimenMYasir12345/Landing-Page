@@ -1,0 +1,971 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+    text-decoration: none;
+    scrollbar-width: none;
+    /* overflow-x: hidden; */
+}
+
+/* Home Section */
+
+.maincontainer{
+    width: 100vw;
+    height: 100vh;
+}
+
+.containerhome{
+    height: 100%;
+    width: 100%;
+    background: url("./images/main.jpg") center no-repeat;
+    background-size: cover;
+}
+
+/* #home{ 
+    width: 100%;
+    height: 100%;
+ }  */
+
+.navbar{
+    z-index: 9999;
+    position: fixed;
+    top: 0;
+    right: 0%;
+    left: 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.gadeg{
+    color: white !important; 
+    font-weight: lighter !important;
+    padding-top: 18px !important;
+    padding-left: 18px !important;
+    font-size: 40px !important;
+    
+}
+
+.groove{
+    color: rgb(81, 211, 81) !important;
+}
+
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 72px;
+    padding-left: 100px;
+    padding-top: 30px;   
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+   
+}
+
+ul li a:hover{
+    color: rgb(81, 211, 81);
+}
+
+.content{
+    position: absolute;
+    top: 24%;
+    left: 65px;
+
+}
+
+.homepage{
+    color: #CAC7C7;
+    font-size: 40px;
+    
+}
+
+.landingpage{
+    color: #878585;
+    font-size: 40px;
+    
+}
+
+.homepagepara{
+    color: #A19E9E;
+    padding-top: 25px;
+    line-height: 24px;
+    font-size: 16px;
+    width: 605px;
+}
+
+.homepagebutton{
+    margin-top: 25px;
+}
+
+.download{
+    font-size: 16px;
+    padding-left: 32px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    color: #51D351;
+    background-color: transparent;
+    border: 1px solid #51D351;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.download:hover{
+    background-color: #51D351;
+    color: white;
+}
+
+.discover{
+    font-size: 16px;
+    padding-left: 32px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    color: white;
+    border: 1px solid #51D351;
+    border-radius: 5px;
+    background-color: #51D351;
+    cursor: pointer;
+
+    
+}
+
+.discover:hover{
+    box-shadow: 2px 2px 10px #51D351;
+    background-color: rgb(71, 207, 71);
+}
+
+.phoneimg{
+
+   margin-left: 107%;
+   margin-top: -55%;
+    
+}
+
+.phoneimg img{
+    height: 400px;
+    
+}
+
+/* Second section */
+
+.arrowsticky i{
+    color: white;
+    background-color: #51D351;
+    border-radius: 50px;
+    width: 50px;
+    position: fixed;
+    left: 95%;
+    top: 90%;
+    font-size: 50px;
+}
+
+.secondsec{
+    height: 100%;
+    width: 100%;
+}
+
+.debitis{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+.ipsum{
+    color: rgb(81, 211, 81);
+}
+
+.secondsec-p1{
+    color: #A19E9E;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.secondseccontent{
+    display: flex;
+}
+
+.consectetur{
+    font-size: 18px;
+}
+
+.mbilimg{
+    background-image: url("https://webdesign-template.netlify.app/images/phone2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 600px;
+    margin-top: 80px;
+    margin-left: 40px;
+    /* color: white; */
+}
+
+.mbilimgsidecontent{
+    margin-top: 80px;
+    margin-left: 90px;
+}
+
+.consecteturp1{
+    color: #A19E9E;
+    padding-top: 6px;
+    line-height: 23px;
+    font-size: 13px;
+}
+
+.ullam{
+    font-size: 18px;
+    padding-top: 18px;
+}
+
+.borderbottom{
+    border: 1px solid #cac9c9;
+    margin-top: 65px;
+}
+
+/* About */
+
+.about{
+    height: 100%;
+    width: 100%;
+}
+
+.about h1{
+    margin-top: 90px;
+}
+
+.aboutsec-p1 , .factsec-p1{
+    color: #A19E9E;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.aboutsech2{
+    margin-left: 50px;
+    font-size: 40px;
+    color: #878585;
+}
+
+.aboutsec-p2{
+    color: #A19E9E;
+    padding-top: 25px;
+    line-height: 24px;
+    font-size: 15px;
+    width: 605px;
+    padding-left: 50px;
+}
+
+.homepagebutton2{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.aboutmbilimg{
+
+    background-image: url("https://webdesign-template.netlify.app/images/phone3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    width: 600px;
+    /* margin-top: 80px; */
+    margin-left: 49%;
+    margin-top: -25%;
+
+}
+
+.factsec{
+    background-image: url("https://webdesign-template.netlify.app/images/back1.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 66%;
+    max-width: 1874px;
+    min-width: 1200px;
+    margin-top: 85px;
+}
+
+.factseccol{
+    max-width: 1350px;
+   
+    
+}
+
+.factsech1 , .ullamsech1{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    padding-top: 55px;
+}
+
+.downloadsec{
+    margin-top: 50px;
+    /* margin-left: 20%; */
+}
+
+.downloadseci1{
+    font-size: 40px;
+    color: white;
+    padding-left: 20%;
+}
+
+.downloadsech1{
+    font-size: 80px;
+    padding-left: 16.5%;
+    color: white;
+}
+
+.downloadsech2{
+    font-size: 25px;
+    padding-left: 15%;
+    color: white;
+
+}
+
+.ratedsec{
+    margin-top: -13%;
+
+}
+
+.ratedseci1{
+    font-size: 40px;
+    color: white;
+    padding-left: 50%;
+
+}
+
+.ratedsech1{
+    font-size: 80px;
+    padding-left: 46.5%;
+    color: white;
+}
+
+.ratedsech2{
+    font-size: 25px;
+    padding-left: 44%;
+    color: white;
+
+}
+
+.followsec{
+    margin-top: -13%;
+
+}
+
+.followseci1{
+    font-size: 40px;
+    color: white;
+    padding-left: 80%;
+}
+
+.followsech1{
+    font-size: 80px;
+    padding-left: 76.5%;
+    color: white;
+}
+
+.followsech2{
+    font-size: 25px;
+    padding-left: 75.5%;
+    color: white;
+}
+
+.fact-content{
+    width: 100%;
+    height: 34% ;
+}
+
+.factcontenth1{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+}
+
+.factcontentp1{
+    text-align: center;
+    color: #A19E9E;
+    padding-top: 5px;
+    line-height: 24px;
+    max-width: 1400px;
+}
+
+.fifthsec{
+    height: 130%;
+    width: 100%;
+    background-color: black;
+}
+
+.debitis2{
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 30px;
+    font-size: 40px;
+    color: white;
+}
+
+.fifthsecbutton{
+    margin-top: 25px;
+    margin-left: 59.5%;
+}
+
+.ullamsec{
+    background-image: url("https://webdesign-template.netlify.app/images/back1.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50%;
+    width: 100%;
+    /* margin-top: 85px; */
+}
+
+.ullamsec-p1{
+    color: #D6DBDB;
+    text-align: center;
+    padding-top: 4px;
+    max-width: 980px;
+    padding-left: 23%;
+}
+
+.ullamsecdiscover{
+    font-size: 16px;
+    padding-left: 32px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    color: white;
+    border: 1px solid #51D351;
+    border-radius: 5px;
+    background-color: #51D351;
+    cursor: pointer;
+    margin-left: 42.5%;
+    margin-top: 10px;
+}
+
+.ullamsecdiscover:hover{
+    box-shadow: 2px 2px 10px #51D351;
+    background-color: rgb(71, 207, 71);
+}
+
+.gallerysec{
+    height: 125%;
+    max-width: 1250px;
+    min-width: 1222px;
+   
+}
+
+.gallery{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+    color: rgb(81, 211, 81);
+}
+
+.gallery i{
+    color: black;
+}
+
+.shapesline1{
+    margin-top: 30px;
+    /* display: flex; */
+}
+
+.shape1 , .shape2 , .shape3 , .shape4 , .shape5{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); 
+    margin-left: 10%;
+    height: 200px;
+    width: 200px;
+    border: 6px solid black;
+    background-image: url("https://webdesign-template.netlify.app/images/gallery1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /* position: relative; */
+
+}
+
+.shape2{
+    margin-left: 26%;
+    margin-top: -16%;
+    background-image: url("https://webdesign-template.netlify.app/images/gallery3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.shape3{
+    background-image: url("https://webdesign-template.netlify.app/images/gallery2.jpg");
+    margin-left: 42%;
+    margin-top: -16%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.shape4{
+    background-image: url("https://webdesign-template.netlify.app/images/gallery4.jpg"); 
+    margin-left: 58%;
+    margin-top: -16%;
+}
+
+.shape5{
+    background-image: url("https://webdesign-template.netlify.app/images/gallery5.webp"); 
+    margin-left: 74.2%;
+    margin-top: -16%;
+}
+
+.shapesline2{
+    margin-top: 2px;
+}
+
+.shape6 , .shape7 , .shape8 , .shape9 , .shape10{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); 
+    margin-left: 9.8%;
+    /* margin-top: -6%; */
+    height: 200px;
+    width: 200px;
+    border: 6px solid black;
+    background-image: url("https://webdesign-template.netlify.app/images/gallery6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.shape6{
+    margin-top: -1.5%;
+}
+
+.shape7{
+    margin-left: 26%;
+    margin-top: -16.3%;
+    background-image: url("https://webdesign-template.netlify.app/images/gallery7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.shape8{
+    margin-left: 42%;
+    margin-top: -16%;
+    background-image: url("https://webdesign-template.netlify.app/images/gallery8.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.shape9{
+    margin-left: 58%;
+    margin-top: -16%;
+    background-image: url("https://webdesign-template.netlify.app/images/gallery9.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.shape10{
+    margin-left: 74%;
+    margin-top: -16%;
+    background-image: url("https://webdesign-template.netlify.app/images/gallery10.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.shapesline3{
+    margin-top: 2px;
+}
+
+.shape11{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); 
+    margin-left: 34%;
+    margin-top: -1.4%;
+    height: 200px;
+    width: 200px;
+    border: 6px solid black;
+    background-image: url("https://webdesign-template.netlify.app/images/gallery11.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.shape12{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%); 
+    margin-left: 50%;
+    margin-top: -16.3%;
+    height: 200px;
+    width: 200px;
+    border: 6px solid black;
+    background-image: url("https://webdesign-template.netlify.app/images/gallery12.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.shape1:hover{
+    transform: scale(0.9) ;
+
+}
+
+.shape2:hover{
+    transform: scale(0.9) ;
+}
+
+.shape3:hover{
+    transform: scale(0.9) ;
+}
+
+.shape4:hover{
+    transform: scale(0.9) ;
+}
+
+.shape5:hover{
+    transform: scale(0.9) ;
+}
+
+.shape6:hover{
+    transform: scale(0.9) ;
+}
+
+.shape7:hover{
+    transform: scale(0.9) ;
+}
+
+.shape8:hover{
+    transform: scale(0.9) ;
+}
+
+.shape9:hover{
+    transform: scale(0.9) ;
+}
+
+.shape10:hover{
+    transform: scale(0.9) ;
+}
+
+.shape12:hover{
+    transform: scale(0.9) ;
+}
+
+.contactsec{
+    height: 120%;
+    width: 100%;
+    background-image: url("images/main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.messagesec{
+    background-color: black;
+    height: 76%;
+    width: 35%;
+    margin-left: 200px;
+    
+    
+
+}
+
+.messagesech1{
+    color: white;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.messagesecinput1{
+    margin-top: 45px;
+    margin-left: 50px;
+    
+}
+
+.messagesec input{
+    border: none;
+    background-color: black;
+    outline: none;
+    width: 320px;
+}
+
+input:focus,
+input:valid{
+    color: white;
+}
+
+.borderbottominput1{
+    border-bottom: 1px solid white;
+    width: 75%;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.messagesec2{
+    background-color: white;
+    height: 76%;
+    width: 35%;
+    /* margin-left: 200px; */
+}
+
+.messagesec2h1{
+    color: black;
+    padding-top: 50px;
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+.messagesectextarea1{
+
+    margin-top: 45px;
+    margin-left: 50px;
+
+}
+
+.messagesec textarea{
+    border: none;
+    background-color: black;
+    outline: none;
+    width: 75%;
+    height: 15%;
+}
+
+.borderbottomtextarea1{
+    border-bottom: 1px solid white;
+    width: 75%;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.messagesecbtn{
+    font-size: 16px;
+    padding-left: 32px;
+    padding-top: 16px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    color: white;
+    border: 1px solid #51D351;
+    border-radius: 5px;
+    background-color: #51D351;
+    cursor: pointer;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+.messagesecbtn:hover{
+    box-shadow: 2px 2px 10px #51D351;
+}
+
+.msgsec2p1{
+    padding-left: 40px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #A19E9E;
+}
+
+.address , .phone , .email , .website{
+    padding-left: 50px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.addressh4 , .emailh4 , .phoneh4 , .websiteh4{
+    padding-left: 25px;
+    padding-top: -40%;
+    color: #878585;
+    margin-top: -7px;
+    font-size: 14px;
+}
+
+.addressh4-span , .emailh4-span , .phoneh4-span ,  .websiteh4-span{
+    color: #878585;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.phoneh4{
+    margin-top: 0;
+}
+
+.emailh4{
+    margin-top: 0;
+}
+
+.websiteh4{
+    margin-top: 0;
+}
+
+.phone{
+    margin-top: 40px;
+}
+
+.email{
+    margin-top: 40px;
+}
+
+.website{
+    margin-top: 40px;
+}
+
+.footersec{
+    height: 75%;
+    width: 100%;
+    /* margin-top: -26.1%; */
+    background-color: black;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.footerinsec{
+    max-width: 1230px;
+    min-width: 1225px;
+}
+
+.footerh1{
+    color: white;
+    padding-top: 30px;
+    padding-left: 35px;
+    margin-bottom: 30px;
+}
+
+.linka{
+    padding-left: 35px;
+    color: white;
+}
+
+.linka span:hover{
+    padding-left: 30px;
+    
+}
+
+.row2{
+    margin-left: 24%;
+    margin-top: -26.1%;
+}
+
+.row3{
+    margin-left: 48%;
+    margin-top: -30.6%;
+    /* margin-bottom: 30.6%; */
+}
+
+.row4{
+    margin-left: 72%;
+    margin-top: -30.6%;
+}
+
+.madebysec{
+    height: 20%;
+    margin-top: 3%;
+    width: 100%;
+    background-color: black;
+}
+
+.madebysec h1{
+    color: white;
+    padding-left: 17%;
+    padding-top: 45px;
+}
+
+.madebysec h1 span{
+    color: #51D351;
+}
+
+
+
+/* Media Queries */
+
+@media only screen and (max-width:1220px){
+
+    .navbar{
+        display: none;
+    }
+
+    .phoneimg{
+        display: none;
+    }
+
+    
+
+    .content{
+        text-align: center;
+        margin-top: -5%;
+        margin-left: 7%;
+    }
+    
+}
+
+@media only screen and (max-width:1200px){
+    .phoneimg{
+       display:block;
+       margin-top: 20%;
+       margin-left: 8%;
+    }
+}
+
+@media only screen and (max-width:1340px){
+    .mbilimgsidecontent{
+        margin-left: 20px;
+    }
+
+    .secondsec .mbilimg{
+        margin-left: 0px;
+    }
+
+    
+}
+
+@media only screen and (max-width:1230px){
+    .about .debitis{
+        margin-top: -30%;
+    }
+
+    .aboutmbilimg{
+        visibility: hidden;
+    }
+    
+    .aboutsech2{
+        margin-left: -10%;
+        text-align: center;
+    }
+
+    .aboutsec-p2{
+        padding-left: 150px;
+        text-align: center;
+        width: 75%;
+    }
+
+    .homepagebutton2{
+        margin-left: 30%;
+    }
+}
+
+@media only screen and (max-width:1170px){
+    .aboutmbilimg{
+        visibility: visible;
+        margin-top: 10%;
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width:1230px){
+    .messagesec{
+        margin-left: 100px;
+    }
+
+}
+
+
+
+
+
+
+
+
+   
+
+
