@@ -379,6 +379,7 @@ ul li a:hover{
 .fact-content{
     width: 100%;
     height: 34% ;
+    min-height: 500px;
 }
 
 .factcontenth1{
@@ -918,7 +919,7 @@ input:valid{
 
     .phoneimg{
         display:block;
-        margin-top: 3%;
+        margin-top: -10%;
         margin-left: 60%;
         
      }
@@ -1010,7 +1011,7 @@ input:valid{
 
 @media only screen and (max-width:1075px){
     .about .debitis{
-        margin-top: 4%;
+        margin-top: 8%;
     }
 
 }
