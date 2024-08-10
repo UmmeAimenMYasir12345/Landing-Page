@@ -232,6 +232,7 @@ ul li a:hover{
 
 .about{
     height: 100%;
+    min-height: 2400px;
     width: 100%;
 }
 
@@ -396,6 +397,7 @@ ul li a:hover{
 
 .fifthsec{
     height: 130%;
+    min-height: 1500px;
     width: 100%;
     background-color: black;
 }
@@ -895,9 +897,9 @@ input:valid{
      }
 
 
-    /* .phoneimg{
+    .phoneimg{
         display: none;
-    } */
+    }
 
     
 
@@ -912,13 +914,18 @@ input:valid{
 @media only screen and (max-width:1200px){
     /* .content{
         margin-left: -5%;
-    } 
+    }  */
 
     .phoneimg{
         display:block;
-        margin-top: 20%;
-        margin-left: 8%;
-     } */
+        margin-top: 3%;
+        margin-left: 60%;
+        
+     }
+
+     .phoneimg img{
+        height: 200px;
+     }
 
     /* .phoneimg{
        display:block;
@@ -945,7 +952,7 @@ input:valid{
 
 @media only screen and (max-width:1230px){
     .about .debitis{
-        margin-top: -8%;
+        margin-top: -1%;
     }
 
     .aboutmbilimg{
@@ -985,13 +992,80 @@ input:valid{
 
 }
 
+@media only screen and (max-width:1070px){
+
+    .about .debitis{
+        margin-top: 1%;
+    }
+
+
+}
+
+@media only screen and (max-width:850px){
+    .aboutmbilimg{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:1075px){
+    .about .debitis{
+        margin-top: 4%;
+    }
+
+}
+
+@media only screen and (max-width:1013px){
+    .about .debitis{
+        margin-top: 11%;
+    }
+}
+
+@media only screen and (max-width:940px){
+    .about .debitis{
+        margin-top: 17%;
+    }
+}
+
+@media only screen and (max-width:715px){
+    .about .debitis{
+        margin-top: 30%;
+    }
+}
+
+@media only screen and (max-width:671px){
+    .about .debitis{
+        margin-top: 11%;
+    }
+}
+
+@media only screen and (max-width:672px){
+    .about .debitis{
+        margin-top: 30%;
+    }
+}
+
+@media only screen and (max-width:552px){
+    .about .debitis{
+        margin-top: 120%;
+    }
+}
+
+@media only screen and (max-width:699px){
+    .mbilimg{
+        height: 200px;
+        width: 400px;
+        margin-top: 30%;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .mbilimg{
+        display: none;
+    }
+}
 
 
 
-
-
-
-
-   
 
 
